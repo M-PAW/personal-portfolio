@@ -1507,6 +1507,27 @@ input, select, textarea {
 
 		}
 
+/* Images */
+	.about-img {
+		width: 16rem;
+	}
+	.about-img-container {
+		width: 300px; 
+		display:flex; 
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		padding-bottom: 3%;
+		
+		border-width: 1px;
+		border-radius: 30px;
+	}
+	.lambda-img-container {
+		width:150px;
+		margin-bottom: -60px;
+		margin-left: -5px;
+	}		
+
 /* Main */
 
 	#main {
