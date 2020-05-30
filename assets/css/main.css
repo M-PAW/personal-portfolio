@@ -1524,9 +1524,30 @@ input, select, textarea {
 	}
 	.lambda-img-container {
 		width:150px;
-		margin-bottom: -60px;
+		margin-bottom: -2rem;
 		margin-left: -5px;
 	}		
+
+/* Projects */
+
+	.Projects-Section p {
+		padding-bottom: 0.6rem;
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+
+	.Projects-Section section:last-of-type {
+		border-bottom: none;
+	}
+
+	.Projects-Section section {
+		border-bottom: 1px solid black;
+	}
+
+	.Projects-Section h3 {
+		font-weight: 700;
+		margin-top: 4rem;;
+	}
 
 /* Main */
 
